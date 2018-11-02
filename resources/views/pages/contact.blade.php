@@ -8,7 +8,7 @@
         <div class="card-body">
             <form action={{route('contact')}} method="">
                 @csrf
-
+//contact form
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input name="name" type="text" class="form-control" id="Name" placeholder="Name">
